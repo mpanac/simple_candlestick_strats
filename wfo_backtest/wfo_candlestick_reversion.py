@@ -287,7 +287,7 @@ if __name__ == "__main__":
     logger.info(f"Loaded data with {len(raw_ohlcv)} rows")
 
     # You can tweak the insample_percentage as well as the n number of periods for walk-forward optimization. This will output new variables which i process in my custom function 'wfo_rolling_split_params'
-    n, window_len, set_lens = wfo_rolling_split_params(total_candles=len(raw_ohlcv), insample_percentage=0.80, n=16)
+    n, window_len, set_lens = wfo_rolling_split_params(total_candles=len(raw_ohlcv), insample_percentage=0.80, n=10)
     logger.info(f"Data split into {n} windows")
     
     # This function will split our data making them ready to perform walk-forward backtest
@@ -299,9 +299,9 @@ if __name__ == "__main__":
 
     # Change the param ranges based on your preferences 
     param_ranges = {
-        'window': range(15, 71, 5),
+        'window': range(15, 101, 5),
         'desired_return': [round(x, 3) for x in np.arange(0.005, 0.0251, 0.0025)],
-        'atr_multiplier': range(1, 9)
+        'atr_multiplier': range(4, 12)
     }
     
     

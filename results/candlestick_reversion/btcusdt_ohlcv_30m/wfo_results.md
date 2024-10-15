@@ -4,41 +4,22 @@
 
 ### Chosen Parameters for Out-of-Sample Test
 - window: 25
-- desired_return: 0.012
-- atr_multiplier: 8
+- desired_return: 0.008
+- atr_multiplier: 10
 
 ### Out-of-Sample Results
 Start: 0
-End: 4470
-Total Return: 36.88%
-Benchmark Return: 111.59%
-Max Drawdown: 12.35%
-Sharpe Ratio: 3.1415
-Sortino Ratio: 4.7592
-Calmar Ratio: 19.6085
-Win Rate: 50.00%
-Total Trades: 21
+End: 6386
+Total Return: -31.01%
+Benchmark Return: -38.55%
+Max Drawdown: 45.30%
+Sharpe Ratio: -1.0190
+Sortino Ratio: -1.4133
+Calmar Ratio: -1.4098
+Win Rate: 31.82%
+Total Trades: 22
 
 ## Window 2
-
-### Chosen Parameters for Out-of-Sample Test
-- window: 25
-- desired_return: 0.012
-- atr_multiplier: 8
-
-### Out-of-Sample Results
-Start: 0
-End: 4470
-Total Return: -23.53%
-Benchmark Return: 164.55%
-Max Drawdown: 44.81%
-Sharpe Ratio: -0.9064
-Sortino Ratio: -1.2713
-Calmar Ratio: -1.4516
-Win Rate: 26.67%
-Total Trades: 16
-
-## Window 3
 
 ### Chosen Parameters for Out-of-Sample Test
 - window: 45
@@ -47,15 +28,34 @@ Total Trades: 16
 
 ### Out-of-Sample Results
 Start: 0
-End: 4470
-Total Return: 30.59%
-Benchmark Return: -45.56%
-Max Drawdown: 23.96%
-Sharpe Ratio: 1.7830
-Sortino Ratio: 2.5560
-Calmar Ratio: 7.7053
-Win Rate: 42.31%
-Total Trades: 27
+End: 6386
+Total Return: 69.72%
+Benchmark Return: 88.08%
+Max Drawdown: 17.01%
+Sharpe Ratio: 3.5662
+Sortino Ratio: 5.2568
+Calmar Ratio: 19.2073
+Win Rate: 53.33%
+Total Trades: 31
+
+## Window 3
+
+### Chosen Parameters for Out-of-Sample Test
+- window: 40
+- desired_return: 0.01
+- atr_multiplier: 11
+
+### Out-of-Sample Results
+Start: 0
+End: 6386
+Total Return: 33.25%
+Benchmark Return: -28.87%
+Max Drawdown: 21.91%
+Sharpe Ratio: 1.8207
+Sortino Ratio: 2.7130
+Calmar Ratio: 5.4649
+Win Rate: 52.17%
+Total Trades: 23
 
 ## Window 4
 
@@ -66,150 +66,93 @@ Total Trades: 27
 
 ### Out-of-Sample Results
 Start: 0
-End: 4470
-Total Return: 14.02%
-Benchmark Return: 34.28%
-Max Drawdown: 17.56%
-Sharpe Ratio: 1.4674
-Sortino Ratio: 2.1334
-Calmar Ratio: 3.8277
-Win Rate: 41.18%
-Total Trades: 18
+End: 6386
+Total Return: -25.33%
+Benchmark Return: -50.41%
+Max Drawdown: 39.11%
+Sharpe Ratio: -1.2079
+Sortino Ratio: -1.7270
+Calmar Ratio: -1.4095
+Win Rate: 40.62%
+Total Trades: 32
 
 ## Window 5
 
 ### Chosen Parameters for Out-of-Sample Test
-- window: 40
-- desired_return: 0.01
+- window: 45
+- desired_return: 0.022
 - atr_multiplier: 7
 
 ### Out-of-Sample Results
 Start: 0
-End: 4470
-Total Return: 14.21%
-Benchmark Return: 16.98%
-Max Drawdown: 14.76%
-Sharpe Ratio: 1.4509
-Sortino Ratio: 2.1419
-Calmar Ratio: 4.6287
-Win Rate: 47.37%
-Total Trades: 19
+End: 6386
+Total Return: 4.53%
+Benchmark Return: -28.43%
+Max Drawdown: 12.46%
+Sharpe Ratio: 0.5255
+Sortino Ratio: 0.7992
+Calmar Ratio: 1.0385
+Win Rate: 57.14%
+Total Trades: 14
 
 ## Window 6
 
 ### Chosen Parameters for Out-of-Sample Test
-- window: 40
+- window: 50
 - desired_return: 0.01
 - atr_multiplier: 7
 
 ### Out-of-Sample Results
 Start: 0
-End: 4470
-Total Return: 27.95%
-Benchmark Return: -7.67%
-Max Drawdown: 21.22%
-Sharpe Ratio: 2.3465
-Sortino Ratio: 3.5771
-Calmar Ratio: 7.6656
-Win Rate: 40.91%
-Total Trades: 22
+End: 6386
+Total Return: 12.03%
+Benchmark Return: 71.48%
+Max Drawdown: 15.74%
+Sharpe Ratio: 1.1451
+Sortino Ratio: 1.6741
+Calmar Ratio: 2.3245
+Win Rate: 56.00%
+Total Trades: 26
 
 ## Window 7
 
 ### Chosen Parameters for Out-of-Sample Test
-- window: 50
-- desired_return: 0.01
+- window: 65
+- desired_return: 0.017
 - atr_multiplier: 7
 
 ### Out-of-Sample Results
 Start: 0
-End: 4470
-Total Return: -24.85%
-Benchmark Return: -57.06%
-Max Drawdown: 39.84%
-Sharpe Ratio: -1.5470
-Sortino Ratio: -2.1942
-Calmar Ratio: -1.6905
-Win Rate: 43.48%
-Total Trades: 24
+End: 6386
+Total Return: 14.96%
+Benchmark Return: -9.85%
+Max Drawdown: 7.65%
+Sharpe Ratio: 1.8289
+Sortino Ratio: 2.6099
+Calmar Ratio: 6.0851
+Win Rate: 65.00%
+Total Trades: 20
 
 ## Window 8
 
 ### Chosen Parameters for Out-of-Sample Test
-- window: 50
-- desired_return: 0.01
+- window: 30
+- desired_return: 0.005
 - atr_multiplier: 7
 
 ### Out-of-Sample Results
 Start: 0
-End: 4470
-Total Return: 9.95%
-Benchmark Return: -2.09%
-Max Drawdown: 14.93%
-Sharpe Ratio: 1.1709
-Sortino Ratio: 1.8586
-Calmar Ratio: 3.0167
-Win Rate: 50.00%
-Total Trades: 18
+End: 6386
+Total Return: -9.06%
+Benchmark Return: 57.35%
+Max Drawdown: 28.56%
+Sharpe Ratio: -0.8049
+Sortino Ratio: -1.1411
+Calmar Ratio: -0.8027
+Win Rate: 39.53%
+Total Trades: 44
 
 ## Window 9
-
-### Chosen Parameters for Out-of-Sample Test
-- window: 65
-- desired_return: 0.02
-- atr_multiplier: 4
-
-### Out-of-Sample Results
-Start: 0
-End: 4470
-Total Return: -1.48%
-Benchmark Return: -15.27%
-Max Drawdown: 13.39%
-Sharpe Ratio: -0.0784
-Sortino Ratio: -0.1257
-Calmar Ratio: -0.4238
-Win Rate: 30.77%
-Total Trades: 13
-
-## Window 10
-
-### Chosen Parameters for Out-of-Sample Test
-- window: 65
-- desired_return: 0.02
-- atr_multiplier: 4
-
-### Out-of-Sample Results
-Start: 0
-End: 4470
-Total Return: -13.85%
-Benchmark Return: 69.81%
-Max Drawdown: 16.44%
-Sharpe Ratio: -2.5251
-Sortino Ratio: -3.3836
-Calmar Ratio: -2.6909
-Win Rate: 26.67%
-Total Trades: 15
-
-## Window 11
-
-### Chosen Parameters for Out-of-Sample Test
-- window: 35
-- desired_return: 0.005
-- atr_multiplier: 1
-
-### Out-of-Sample Results
-Start: 0
-End: 4470
-Total Return: 8.06%
-Benchmark Return: 7.68%
-Max Drawdown: 3.30%
-Sharpe Ratio: 2.7837
-Sortino Ratio: 4.5879
-Calmar Ratio: 10.7392
-Win Rate: 38.24%
-Total Trades: 34
-
-## Window 12
 
 ### Chosen Parameters for Out-of-Sample Test
 - window: 50
@@ -218,89 +161,32 @@ Total Trades: 34
 
 ### Out-of-Sample Results
 Start: 0
-End: 4470
-Total Return: 0.19%
-Benchmark Return: -7.79%
-Max Drawdown: 9.60%
-Sharpe Ratio: 0.1336
-Sortino Ratio: 0.1835
-Calmar Ratio: 0.0768
-Win Rate: 41.18%
-Total Trades: 17
+End: 6386
+Total Return: -6.53%
+Benchmark Return: 69.83%
+Max Drawdown: 22.42%
+Sharpe Ratio: -0.2284
+Sortino Ratio: -0.3310
+Calmar Ratio: -0.7536
+Win Rate: 35.29%
+Total Trades: 35
 
-## Window 13
-
-### Chosen Parameters for Out-of-Sample Test
-- window: 35
-- desired_return: 0.005
-- atr_multiplier: 1
-
-### Out-of-Sample Results
-Start: 0
-End: 4470
-Total Return: -2.69%
-Benchmark Return: 67.44%
-Max Drawdown: 6.84%
-Sharpe Ratio: -0.7271
-Sortino Ratio: -1.0657
-Calmar Ratio: -1.4792
-Win Rate: 33.33%
-Total Trades: 39
-
-## Window 14
+## Window 10
 
 ### Chosen Parameters for Out-of-Sample Test
 - window: 15
-- desired_return: 0.017
-- atr_multiplier: 1
+- desired_return: 0.015
+- atr_multiplier: 11
 
 ### Out-of-Sample Results
 Start: 0
-End: 4470
-Total Return: -1.36%
-Benchmark Return: 50.62%
-Max Drawdown: 5.23%
-Sharpe Ratio: -0.6904
-Sortino Ratio: -1.0297
-Calmar Ratio: -1.0000
-Win Rate: 16.67%
-Total Trades: 6
-
-## Window 15
-
-### Chosen Parameters for Out-of-Sample Test
-- window: 25
-- desired_return: 0.02
-- atr_multiplier: 1
-
-### Out-of-Sample Results
-Start: 0
-End: 4470
-Total Return: -2.83%
-Benchmark Return: -17.11%
-Max Drawdown: 9.83%
-Sharpe Ratio: -0.5474
-Sortino Ratio: -0.8806
-Calmar Ratio: -1.0820
-Win Rate: 8.33%
-Total Trades: 12
-
-## Window 16
-
-### Chosen Parameters for Out-of-Sample Test
-- window: 25
-- desired_return: 0.01
-- atr_multiplier: 1
-
-### Out-of-Sample Results
-Start: 0
-End: 4470
-Total Return: -3.09%
-Benchmark Return: 10.36%
-Max Drawdown: 3.19%
-Sharpe Ratio: -1.9360
-Sortino Ratio: -2.7781
-Calmar Ratio: -3.6194
-Win Rate: 40.00%
-Total Trades: 15
+End: 6386
+Total Return: -19.74%
+Benchmark Return: -6.82%
+Max Drawdown: 25.24%
+Sharpe Ratio: -2.7872
+Sortino Ratio: -3.5589
+Calmar Ratio: -1.7947
+Win Rate: 28.57%
+Total Trades: 7
 
